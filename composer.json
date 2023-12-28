@@ -1,0 +1,23 @@
+{
+    "name": "infoestrutura/cep-lookup",
+    "description": "A PHP library for performing online ZIP code (CEP) queries, providing an easy and integrated way to retrieve address information based on ZIP codes.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Infoestrutura\\CepLookup\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Flavio Mattos",
+            "email": "contact@flaviomattos.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    }
+}
